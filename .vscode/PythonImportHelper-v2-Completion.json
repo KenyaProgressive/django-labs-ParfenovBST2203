@@ -1,0 +1,285 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.asgi",
+        "description": "projectParfenovBST2203.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "projectParfenovBST2203.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-@uryb!s@8h3*i2+oj^-u!&*sisn((=^m-$rqhv24yq3cw)whu1'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-@uryb!s@8h3*i2+oj^-u!&*sisn((=^m-$rqhv24yq3cw)whu1'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'projectParfenovBST2203.urls'",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "ROOT_URLCONF = 'projectParfenovBST2203.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'projectParfenovBST2203.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, \"myDb\")\n    }\n}\n# Password validation",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, \"myDb\")\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.settings",
+        "description": "projectParfenovBST2203.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "projectParfenovBST2203.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.urls",
+        "description": "projectParfenovBST2203.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "detail": "projectParfenovBST2203.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "projectParfenovBST2203.wsgi",
+        "description": "projectParfenovBST2203.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "projectParfenovBST2203.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "average_mark_count",
+        "kind": 2,
+        "importPath": "src.mygroup",
+        "description": "src.mygroup",
+        "peekOfCode": "def average_mark_count(marks: list[int]) -> float:\n    return sum(marks) / len(marks)\ndef print_student_data(student_card: dict[str, str | list]) -> None:\n    for key in student_card:\n        print(f\"{key}: {student_card[f\"{key}\"]}\")\n    print() \ndef validate_average_mark(average_mark: float) -> bool:\n    valid = (average_mark >= 2.0) and (average_mark <= 5.0)\n    return True if valid else False \ndef main() -> None:",
+        "detail": "src.mygroup",
+        "documentation": {}
+    },
+    {
+        "label": "print_student_data",
+        "kind": 2,
+        "importPath": "src.mygroup",
+        "description": "src.mygroup",
+        "peekOfCode": "def print_student_data(student_card: dict[str, str | list]) -> None:\n    for key in student_card:\n        print(f\"{key}: {student_card[f\"{key}\"]}\")\n    print() \ndef validate_average_mark(average_mark: float) -> bool:\n    valid = (average_mark >= 2.0) and (average_mark <= 5.0)\n    return True if valid else False \ndef main() -> None:\n    groupmates: list[dict] = [\n        {",
+        "detail": "src.mygroup",
+        "documentation": {}
+    },
+    {
+        "label": "validate_average_mark",
+        "kind": 2,
+        "importPath": "src.mygroup",
+        "description": "src.mygroup",
+        "peekOfCode": "def validate_average_mark(average_mark: float) -> bool:\n    valid = (average_mark >= 2.0) and (average_mark <= 5.0)\n    return True if valid else False \ndef main() -> None:\n    groupmates: list[dict] = [\n        {\n            \"name\": \"Анастасия\",\n            \"surname\": \"Пахомова\",\n            \"exams\": [\"АиГ\", \"МИСПиСИТ\", \"АИС\"],\n            \"marks\": [5, 5, 3]",
+        "detail": "src.mygroup",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.mygroup",
+        "description": "src.mygroup",
+        "peekOfCode": "def main() -> None:\n    groupmates: list[dict] = [\n        {\n            \"name\": \"Анастасия\",\n            \"surname\": \"Пахомова\",\n            \"exams\": [\"АиГ\", \"МИСПиСИТ\", \"АИС\"],\n            \"marks\": [5, 5, 3]\n        },\n        {\n            \"name\": \"Никита\",",
+        "detail": "src.mygroup",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'projectParfenovBST2203.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
