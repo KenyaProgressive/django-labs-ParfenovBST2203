@@ -57,6 +57,14 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -74,10 +82,10 @@
     },
     {
         "label": "views",
-        "importPath": "django.contrib.flatpages",
-        "description": "django.contrib.flatpages",
+        "importPath": "flatpages",
+        "description": "flatpages",
         "isExtraImport": true,
-        "detail": "django.contrib.flatpages",
+        "detail": "flatpages",
         "documentation": {}
     },
     {
@@ -94,6 +102,54 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -119,7 +175,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-nv7e*#p65=cw+9b-o&8p&4dn%7jo2am41f7@8buh1-k^n9%l@j'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-xy5$+h7j-fdsj^u4hwbjp9rmpnmr3rv$3vw0wh^7lb7ea&c97q'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -128,7 +184,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-nv7e*#p65=cw+9b-o&8p&4dn%7jo2am41f7@8buh1-k^n9%l@j'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-xy5$+h7j-fdsj^u4hwbjp9rmpnmr3rv$3vw0wh^7lb7ea&c97q'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -146,7 +202,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.flatpages',",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'flatpages'",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -155,7 +211,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.flatpages',\n    'django.contrib.sites'\n]",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'flatpages'\n]\nMIDDLEWARE = [",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -173,7 +229,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "ROOT_URLCONF = 'firstwebpage.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "ROOT_URLCONF = 'firstwebpage.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'flatpages')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -182,7 +238,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'flatpages')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -218,7 +274,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -227,7 +283,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -236,7 +292,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -245,7 +301,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -254,7 +310,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.settings",
         "description": "lab2.firstwebpage.firstwebpage.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "lab2.firstwebpage.firstwebpage.settings",
         "documentation": {}
     },
@@ -272,7 +328,7 @@
         "kind": 5,
         "importPath": "lab2.firstwebpage.firstwebpage.urls",
         "description": "lab2.firstwebpage.firstwebpage.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', views.home, name='home'),\n    path('hello/', views.home, name=\"hello_world\")\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', views.home, name='home'),\n    path('hello/', views.home, name='home')\n]",
         "detail": "lab2.firstwebpage.firstwebpage.urls",
         "documentation": {}
     },
@@ -283,6 +339,24 @@
         "description": "lab2.firstwebpage.firstwebpage.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "lab2.firstwebpage.firstwebpage.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "FlatpagesConfig",
+        "kind": 6,
+        "importPath": "lab2.firstwebpage.flatpages.apps",
+        "description": "lab2.firstwebpage.flatpages.apps",
+        "peekOfCode": "class FlatpagesConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'flatpages'",
+        "detail": "lab2.firstwebpage.flatpages.apps",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "lab2.firstwebpage.flatpages.views",
+        "description": "lab2.firstwebpage.flatpages.views",
+        "peekOfCode": "def home(request):\n    # return HttpResponse(u\"Привет, Мир!\")\n    return render(request, 'templates/static_handler.html')",
+        "detail": "lab2.firstwebpage.flatpages.views",
         "documentation": {}
     },
     {
