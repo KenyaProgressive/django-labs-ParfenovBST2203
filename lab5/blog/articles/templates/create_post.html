@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Создать статью</title>
+    <link rel="stylesheet" href="{% static 'article.css' %}">
+</head>
+<body class="create-post">
+    <div class="header">
+        <a href="{% url 'archive' %}" class="all-posts-link">Все записи</a>
+        <h1 class="page-title">Написать статью</h1>
+    </div>
+    <div class="create-post-content">
+        <form method="POST" class="article-form">
+            {% csrf_token %}
+            <input type="text" name="title" class="form-input" placeholder="Название статьи" value="{{ form.title }}">
+            <textarea name="text" class="form-textarea" placeholder="Текст статьи">{{ form.text }}</textarea>
+            <input type="submit" class="submit-btn" value="Сохранить">
+        </form>
+        {% if form.errors %}
+        <div class="error-message">
+            {{ form.errors }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
