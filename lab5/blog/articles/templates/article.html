@@ -8,6 +8,12 @@
 <body class="article">
     <div class="header">
         <a href="{% url 'archive' %}" class="all-posts-link">Все записи</a>
+          {% if user.is_authenticated %}
+        <a href="{% url 'account_logout' %}" class="all-posts-link" style="right: 100px;">Выйти ({{ user.username }})</a>
+        {% else %}
+        <a href="{% url 'sign_in' %}" class="all-posts-link">Войти</a>
+        <a href="{% url 'sign_up' %}" class="all-posts-link" style="right: 100px;">Регистрация</a>
+        {% endif %}
         <h1 class="page-title">Архив статей</h1>
     </div>
     <div class="article-content">

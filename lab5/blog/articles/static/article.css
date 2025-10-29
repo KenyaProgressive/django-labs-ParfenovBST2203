@@ -229,3 +229,47 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/*Регистрация и вход*/
+
+body.register, body.login {
+    background: #1abc9c;
+}
+.register-content, .login-content {
+    width: 960px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+/* Дополнительные стили для ссылок в шапке */
+.all-posts-link:nth-child(2) {
+    right: 100px;
+}
+.all-posts-link:nth-child(3) {
+    right: 20px;
+}
+/* Стили для ссылок в формах */
+.form-links {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-links a {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+.form-links a:hover {
+    text-decoration: none;
+}
+
+/* Стили для сообщений об ошибках */
+.error-message {
+    color: #ff6b6b;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-left: 4px solid #ff6b6b;
+    text-align: center;
+    font-weight: bold;
+}

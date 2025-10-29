@@ -22,5 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.archive, name='archive'),
     path('article/<int:article_id>/', views.get_article, name='get_article'),
-    path('article/new', views.create_post, name='create_post')
+    path('article/new', views.create_post, name='create_post'),
+    path('sign_up/', views.sign_up, name='sign_up'),
+    path('sign_in/', views.sign_in, name='sign_in'),
+    path('logout/', views.account_logout, name='account_logout')
 ]
