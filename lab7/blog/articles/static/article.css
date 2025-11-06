@@ -29,6 +29,22 @@ body {
     border-radius: 5px;
 }
 
+.fold-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.fold-button:hover {
+    text-decoration: underline;
+}
 
 .all-posts-link {
     position: absolute;
@@ -61,6 +77,15 @@ body {
     border-radius: 5px;
     background-color: #16a085;
 }
+
+.post-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
 .post-title a {
     color: #ffffff;
     text-decoration: underline;
@@ -272,4 +297,11 @@ body.register, body.login {
     border-left: 4px solid #ff6b6b;
     text-align: center;
     font-weight: bold;
+}
+
+/* Стили для сворачивания постов */
+.one-post.folded .article-author,
+.one-post.folded .article-created-date,
+.one-post.folded .article-text {
+    display: none !important;
 }

@@ -25,6 +25,7 @@
                 <a href="{% url 'get_article' article_id=post.id %}">
                     {{ post.title }}
                 </a>
+                <button class="fold-button">Свернуть</button>
             </h2>
             <div class="article-info">
                 <div class="article-author">{{ post.author.username }}</div>
@@ -34,6 +35,6 @@
         </div>
         {% endfor %}
     </div>
-    <script src="{% static 'helloworld.js' %}"></script>
+    <script src="{% static 'fold-post.js' %}"></script>
 </body>
 </html>
