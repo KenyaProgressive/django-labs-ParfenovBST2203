@@ -58,6 +58,10 @@ let printGroupmates = function(groupmates) {
 }
 
 printGroupmatesFilteredByGroup = function(groupmates, targetGroup) {
+    if (targetGroup.length < 7) {
+        console.log("Номер группы некорректен")
+        return
+    }
         console.log(
         rpad("name", 15),
         rpad("surname", 15),
@@ -79,27 +83,34 @@ printGroupmatesFilteredByGroup = function(groupmates, targetGroup) {
     console.log('\n')
 }
 
-// printGroupmatesFilteredByAverageMark = function(groupmates, targetGroup) {
-//         console.log(
-//         rpad("name", 15),
-//         rpad("surname", 15),
-//         rpad("exams", 15),
-//         rpad("group", 8),
-//         rpad("marks", 20)
-//     );
+printGroupmatesFilteredByAverageMark = function(groupmates, avgMark) {
+        console.log(
+        rpad("name", 15),
+        rpad("surname", 15),
+        rpad("exams", 15),
+        rpad("group", 8),
+        rpad("marks", 20)
+    );
 
-//     for (let i = 0; i <= groupmates.length-1; i++) {
-//         if (groupmates[i]['group'] == targetGroup)
-//             console.log(
-//                 rpad(groupmates[i]['name'], 15),
-//                 rpad(groupmates[i]['surname'], 15),
-//                 rpad(groupmates[i]['exams'], 15),
-//                 rpad(groupmates[i]['group'], 8),
-//                 rpad(groupmates[i]['marks'], 20),
-//             );
-//     }
-//     console.log('\n')
-// }
+    for (let i = 0; i <= groupmates.length-1; i++) {
+        let sumI = groupmates[i]["marks"].reduce((acc, value) => acc + value, 0); // Сумма всеъ элементов
+        let avg = sumI / groupmates[i]["marks"].length
+        if (avg >= avgMark)
+            console.log(
+                rpad(groupmates[i]['name'], 15),
+                rpad(groupmates[i]['surname'], 15),
+                rpad(groupmates[i]['exams'], 15),
+                rpad(groupmates[i]['group'], 8),
+                rpad(groupmates[i]['marks'], 20),
+            );
+    }
+    console.log('\n')
+}
 
-printGroupmates(groupmates)
-printGroupmatesFilteredByGroup(groupmates, "БСТ2203")
+let targetGroup = prompt("Введите номер группы: ")
+
+printGroupmatesFilteredByGroup(groupmates, targetGroup)
+
+let targetMark = prompt("Введите средний балл: ")
+
+printGroupmatesFilteredByAverageMark(groupmates, targetMark)
